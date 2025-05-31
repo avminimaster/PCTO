@@ -1,0 +1,51 @@
+/* stile.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #023047;
+  font-weight: bold;
+  font-size: 2em;
+  color: #FFB706;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  padding: 2em;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.slide.active {
+  display: block;
+}
+
+
+/*   per ev pulsanti
+.controls {
+  position: fixed;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+
+.controls button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 1em 2em;
+  margin: 0 1em;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background-color: #777;
+}
+
+*/
